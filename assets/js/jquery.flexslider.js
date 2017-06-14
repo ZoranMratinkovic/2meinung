@@ -5,6 +5,11 @@
  */
 ;
 (function ($) {
+   $('.ikonica').hover(function(){
+    $(this).attr('src','assets/img/dent1.png');
+   },function(){
+    $(this).attr('src','assets/img/dent.png');
+   });
 
   //FlexSlider: Object Instance
   $.flexslider = function(el, options) {

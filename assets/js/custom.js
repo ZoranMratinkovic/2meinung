@@ -62,15 +62,17 @@
        
 
     }
-   
-   
+    
     $(document).ready(function () {
         mainApp.slide_fun();
         mainApp.wow_fun();
         mainApp.gallery_fun();
         mainApp.custom_fun();
+
+  });
+
        
-    });
+   
 }(jQuery));
 
 //CLIENTS SECTION SCRIPTS

@@ -40,18 +40,22 @@ h1,h2,h4 {
   background-color: #00b3cc;
   height: 366px;
   padding-right:0px!important;
+      margin-top: 20px;
 }
 .txt5{
   background-color: #00a1be;
   height: 366px;
+      margin-top: 20px;
 }
 .txt3{
   background-color: #0087aa;
   height: 366px;
+      margin-top: 20px;
 }
 .txt4{
   background-color: #006d95;
   height: 366px;
+      margin-top: 20px;
 }
 .pad-set {
   padding-top: 15px;
@@ -210,8 +214,7 @@ border: 1px solid black;
         padding-right:30px;
     }
 .tag-home {
-    padding-top:50px;
-    padding-bottom:30px;
+
     font-size:30px;
     text-align:center;
     line-height:45px

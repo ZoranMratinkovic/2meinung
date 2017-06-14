@@ -36,10 +36,30 @@ h1,h2,h4 {
     font-size:30px;
     font-family: 'Lobster', cursive;
 }
+.txt1{
+  background-color: #00b3cc;
+  height: 366px;
+  padding-right:0px!important;
+}
+.txt2{
+  background-color: #00a1be;
+  height: 366px;
+}
+.txt3{
+  background-color: #0087aa;
+  height: 366px;
+}
+.txt4{
+  background-color: #006d95;
+  height: 366px;
+}
 .pad-set {
   padding-top: 15px;
     padding-bottom: 15px;
 
+}
+.right{
+  text-align: left;
 }
 .pad-top {
      padding-top:50px;
@@ -156,21 +176,24 @@ border: 1px solid black;
    .slajder3{
      left:60%!important;
    }
-   .item img{
+   /*.item img{
      height: 564px!important;
    }
    .trecaSlika{
      height: 568px!important;
      width:100%;
-   }
+   }*/
  /* =============================================================
     PAGE STYLES
  ============================================================ */
 .below-slideshow {
     color:#fff;
-    background:#01b3cc;
     padding-bottom:50px;
 
+}
+.nopadding{
+  padding-left:0px;
+  padding-right: 0px;
 }
     .below-slideshow i {
         padding-bottom:15px;
@@ -536,5 +559,3 @@ ul#filters {
 	}
 
 }
-
-

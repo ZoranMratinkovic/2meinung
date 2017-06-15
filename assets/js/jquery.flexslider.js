@@ -5,12 +5,31 @@
  */
 ;
 (function ($) {
+  //Kod za hover - ikonice
    $('.ikonica').hover(function(){
     $(this).attr('src','assets/img/dent1.png');
    },function(){
     $(this).attr('src','assets/img/dent.png');
    });
 
+   $('.ikonica1').hover(function(){
+    $(this).attr('src','assets/img/toothbrush1.png');
+   },function(){
+    $(this).attr('src','assets/img/toothbrush.png');
+   });
+
+   $('.ikonica2').hover(function(){
+    $(this).attr('src','assets/img/dentist1.png');
+   },function(){
+    $(this).attr('src','assets/img/dentist.png');
+   });
+
+   $('.ikonica3').hover(function(){
+    $(this).attr('src','assets/img/zweiteMeinung1.png');
+   },function(){
+    $(this).attr('src','assets/img/zweiteMeinung.png');
+   });
+//Kod za hover - ikonice
   //FlexSlider: Object Instance
   $.flexslider = function(el, options) {
     var slider = $(el);

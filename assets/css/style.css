@@ -97,7 +97,7 @@ font-weight: bolder;
 }
 .menu-section {
     background-color: #01b3cc;
-    border-bottom:5px solid #CECECE;
+
     width:100%
 }
 .menu-top-active {
@@ -127,9 +127,7 @@ border: 1px solid black;
    SLIDESHOW / CAROUSEL STYLES
  ============================================================ */
 
-#carousel-div {
-    border:3px solid #e1e1e1;
-}
+
 .carousel-caption {
     top:50px;
 }

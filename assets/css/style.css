@@ -178,13 +178,14 @@ border: 1px solid black;
    .slajder3{
      left:60%!important;
    }
-   /*.item img{
+   .item img{
      height: 564px!important;
    }
    .trecaSlika{
      height: 568px!important;
-     width:100%;
-   }*/
+
+     width:691px;
+   }
  /* =============================================================
     PAGE STYLES
  ============================================================ */
@@ -212,10 +213,13 @@ border: 1px solid black;
 
     }
 .tag-home {
-
+        margin-toP: 45px;
     font-size:30px;
     text-align:center;
     line-height:45px
+}
+.bold1{
+  font-weight: bold;
 }
 
 .parallax-like {
@@ -392,7 +396,8 @@ ul#filters {
 }
 
 .maximg{
-	width:100%;
+  width: 701px;
+    float: right;
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 footer { background-color:#006d95; min-height:350px; font-family: 'Open Sans', sans-serif; }

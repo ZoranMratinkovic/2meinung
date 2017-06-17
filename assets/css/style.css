@@ -178,13 +178,12 @@ border: 1px solid black;
    .slajder3{
      left:60%!important;
    }
-   .item img{
-     height: 564px!important;
+  
+   .carousel-inner > .item > img{
+    height:564px;
    }
-   .trecaSlika{
-     height: 568px!important;
-
-     width:691px;
+   .slidza{
+    width: 100%;
    }
  /* =============================================================
     PAGE STYLES
@@ -397,7 +396,7 @@ ul#filters {
 
 .maximg{
   width: 701px;
-    float: right;
+  float: right;
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 footer { background-color:#006d95; min-height:350px; font-family: 'Open Sans', sans-serif; }

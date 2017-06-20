@@ -143,7 +143,7 @@
 	}
 }
 /*Zajednicko za telefone*/
-@media (max-wid32pxth:414px) and (min-width:320px){
+@media (max-width:414px) and (min-width:320px){
   .flexible{
     display:flex;
     flex-direction: column;
@@ -155,7 +155,7 @@
    }
    .b{
     order:1; 
-    
+
    }
    footer{
    	text-align: center;

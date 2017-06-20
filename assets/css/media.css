@@ -41,15 +41,21 @@
    .dugme{
    	font-size:19px;
    }
+   /*Promeni posle za sve telefone*/
    .flexible{
     display:flex;
     flex-direction: column;
+    padding:0;
+    margin: 0;
    }
    .a{
     order:2;
    }
    .b{
     order:1;
+   }
+   footer{
+   	text-align: center;
    }
 }
 @media (max-width:414px) and (min-width:366px){

@@ -185,7 +185,7 @@ border: 1px solid black;
    .slidza{
     width: 100%;
    }
-   
+
  /* =============================================================
     PAGE STYLES
  ============================================================ */
@@ -256,6 +256,10 @@ min-height: 300px;
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
+    margin-bottom: 18px;
+}
+.h1class {
+      font-size: 40px;
 }
 .txt2{
   text-align: center;

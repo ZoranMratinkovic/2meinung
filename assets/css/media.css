@@ -1,9 +1,10 @@
-@media (max-width:768px) and (min-width:415px){
+@media (max-width:767px) and (min-width:415px){
   .slidza{
   	width: 70%;
   }
 }
-@media (max-width:365px) and (min-width:320px){
+/*Iphone 5 - iphone 6*/
+@media (max-width:374px) and (min-width:320px){
   .slidza{
   	width: 100%;
   	height:400px;
@@ -42,7 +43,108 @@
    	font-size:19px;
    }
    /*Promeni posle za sve telefone*/
-   .flexible{
+}
+/*Iphone 5 - iphone 6 kraj*/
+/*Iphone 6 pocetak*/
+@media (max-width:413px) and (min-width:375px){
+  .slidza{
+  	width: 95%;
+  	height:430px;
+  }
+  .right{
+  	text-align: center;
+  }
+  .textOverlay{
+  	font-size:20px;
+  }
+  .below-slideshow{
+  	padding-bottom: 0;
+  }
+  .txtIznadSlike{
+	font-size:26px;
+  }
+  .just-txt-div{
+  	padding-bottom:15px;
+  	padding-top: 10px;
+  }
+  .pad-set{
+  	padding-bottom:0;
+  	padding-top:0;
+  }
+  .slajd{
+    height:375px!important;
+   }
+   .carousel-inner{
+   	height: 375px!important;
+   }
+   .carousel-caption h3{
+   	width: 0;
+   	padding:170px 20px;
+   }
+   .dugme{
+   	font-size:19px;
+   }
+
+}
+/*Iphone 6 kraj*/
+/*Iphone 6+ pocetak*/
+@media (max-width:767px) and (min-width:414px){
+  .slidza{
+  	width: 95%;
+  	height:430px;
+  }
+  .right{
+  	text-align: center;
+  }
+  .textOverlay{
+  	font-size:20px;
+  }
+  .below-slideshow{
+  	padding-bottom: 0;
+  }
+  .txtIznadSlike{
+	font-size:26px;
+  }
+  .just-txt-div{
+  	padding-bottom:15px;
+  	padding-top: 10px;
+  }
+  .pad-set{
+  	padding-bottom:0;
+  	padding-top:0;
+  }
+  .slajd{
+    height:375px!important;
+   }
+   .carousel-inner{
+   	height: 375px!important;
+   }
+   .carousel-caption h3{
+   	width: 0;
+   	padding:170px 20px;
+   }
+   .dugme{
+   	font-size:19px;
+   }
+}
+/*Iphone 6+ kraj*/
+@media (max-width:1023px) and (min-width:768px){
+	#slikaPrva{
+		width: 73%;
+	}
+	.txt1 p{
+		margin-top:32px;
+	}
+	.below-slideshow .txt-block{
+		padding-top: 10px;
+	}
+	.parallax-like{
+		background-attachment: scroll;
+	}
+}
+/*Zajednicko za telefone*/
+@media (max-wid32pxth:414px) and (min-width:320px){
+  .flexible{
     display:flex;
     flex-direction: column;
     padding:0;
@@ -57,9 +159,12 @@
    footer{
    	text-align: center;
    }
+   .bottom_ul li a{
+   	font-size: 15px;
+   }
+    .parallax-like{
+		background-position:0% 12%;
+		background-attachment:scroll;
+   }
 }
-@media (max-width:414px) and (min-width:366px){
-  .slidza{
-  	width: 90%;
-  }
-}
+/*Zajednicko za telefone*/

@@ -41,6 +41,16 @@
    .dugme{
    	font-size:19px;
    }
+   .flexible{
+    display:flex;
+    flex-direction: column;
+   }
+   .a{
+    order:2;
+   }
+   .b{
+    order:1;
+   }
 }
 @media (max-width:414px) and (min-width:366px){
   .slidza{

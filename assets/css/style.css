@@ -258,6 +258,9 @@ min-height: 300px;
     -moz-border-radius:10px;
     margin-bottom: 18px;
 }
+.h1class {
+      font-size: 40px;
+}
 .txt2{
   text-align: center;
 }

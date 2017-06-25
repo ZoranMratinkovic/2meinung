@@ -38,24 +38,33 @@ h1,h2,h4 {
 }
 .txt1{
   background-color: #00b3cc;
-  height: 366px;
+  height: 420px;
   padding-right:0px!important;
       margin-top: 20px;
 }
 .txt5{
   background-color: #00a1be;
-  height: 366px;
+  height: 420px;
       margin-top: 20px;
 }
 .txt3{
   background-color: #0087aa;
-  height: 366px;
+  height: 420px;
       margin-top: 20px;
 }
 .txt4{
   background-color: #006d95;
-  height: 366px;
+  height: 420px;
       margin-top: 20px;
+}
+.front {
+  height: 70px;
+}
+.bela{
+  color:#FFF;
+}
+.front1 {
+  height:140px;
 }
 .pad-set {
   padding-top: 15px;

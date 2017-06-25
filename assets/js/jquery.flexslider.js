@@ -9,25 +9,25 @@
    $('.ikonica').hover(function(){
     $(this).attr('src','assets/img/dent1.png');
    },function(){
-    $(this).attr('src','assets/img/dent.png');
+    $(this).attr('src','assets/img/dent11.png');
    });
 
    $('.ikonica1').hover(function(){
     $(this).attr('src','assets/img/toothbrush1.png');
    },function(){
-    $(this).attr('src','assets/img/toothbrush.png');
+    $(this).attr('src','assets/img/toothbrush11.png');
    });
 
    $('.ikonica2').hover(function(){
     $(this).attr('src','assets/img/dentist1.png');
    },function(){
-    $(this).attr('src','assets/img/dentist.png');
+    $(this).attr('src','assets/img/dentist11.png');
    });
 
    $('.ikonica3').hover(function(){
     $(this).attr('src','assets/img/zweiteMeinung1.png');
    },function(){
-    $(this).attr('src','assets/img/zweiteMeinung.png');
+    $(this).attr('src','assets/img/zweiteMeinung11.png');
    });
 //Kod za hover - ikonice
   //FlexSlider: Object Instance

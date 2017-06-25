@@ -63,6 +63,9 @@ h1,h2,h4 {
 .bela{
   color:#FFF;
 }
+.margintop{
+  margin-top:59px;
+}
 .front1 {
   height:140px;
 }
@@ -88,7 +91,7 @@ h1,h2,h4 {
 }
 .navbar-header img {
   height: 100px;
-  width: 200px;
+  width: 244px;
 }
 .button23{
 	background-color:#ccc;

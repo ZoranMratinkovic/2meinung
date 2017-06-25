@@ -134,13 +134,22 @@
 		width: 73%;
 	}
 	.txt1 p{
-		margin-top:32px;
+		margin-top:0;
 	}
 	.below-slideshow .txt-block{
 		padding-top: 10px;
 	}
 	.parallax-like{
 		background-attachment: scroll;
+	}
+	.txt3, .txt4{
+		margin-top: 0;
+	}
+	.pading{
+		padding:0;
+	}
+	.tx3 .front1, .txt1 .front1{
+		margin-left: 16px;
 	}
 }
 /*Zajednicko za telefone*/
@@ -172,5 +181,10 @@
    	text-align: center;
    	float:none;
    }
+   .pading{
+   		width:100%;
+
+   }
+   
 }
 /*Zajednicko za telefone*/

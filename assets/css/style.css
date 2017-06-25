@@ -80,6 +80,14 @@ h1,h2,h4 {
 .pad-top {
      padding-top:50px;
 }
+.pading{
+  padding-right: 25px;
+  padding-left:25px;
+}
+.txt3 .front1{
+  padding-left: 3px;
+  padding-right: 3px;
+}
 /* =============================================================
    NAVBAR & MENU STYLES
  ============================================================ */
@@ -219,7 +227,7 @@ border: 1px solid black;
     }
      .below-slideshow h4 {
         font-weight:800;
-        font-size:20px;
+        font-size:19px;
     }
     .below-slideshow p {
 

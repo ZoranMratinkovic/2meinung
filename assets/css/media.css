@@ -167,5 +167,9 @@
 		background-position:0% 12%;
 		background-attachment:scroll;
    }
+   .right-div{
+   	text-align: center;
+   	float:none;
+   }
 }
 /*Zajednicko za telefone*/

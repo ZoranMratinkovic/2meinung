@@ -97,9 +97,15 @@ h1,h2,h4 {
     padding: 20px;
     font-size:20px;
 }
+.right-div a:hover{
+  color:blue;
+}
 .navbar-header img {
   height: 100px;
   width: 244px;
+}
+.logofooter img{
+  margin-bottom:15px;
 }
 .button23{
 	background-color:#ccc;

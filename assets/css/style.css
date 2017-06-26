@@ -112,6 +112,13 @@ h1,h2,h4 {
 }
 .bluec{
   color:#52cbdc;
+
+}
+.bluec2{
+  margin-top: 160px;
+}
+.bluec1{
+  margin-top: 85px;
 }
 #menu-top a {
   font-weight: bold;
@@ -214,7 +221,10 @@ border: 1px solid black;
    .slidza{
     width: 100%;
    }
-
+  .inputFile{
+    padding: 10px 50px;
+    margin: 0 auto;
+  }
  /* =============================================================
     PAGE STYLES
  ============================================================ */
@@ -296,6 +306,9 @@ min-height: 300px;
 .txt2 h2 {
   margin-top: 68px;
 color: #ffffff;
+}
+#slikaPrva{
+  width: 90%;
 }
 .footer-sec {
     margin-top:50px;

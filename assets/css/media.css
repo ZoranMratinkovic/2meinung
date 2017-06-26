@@ -43,6 +43,12 @@
    .dugme{
    	font-size:19px;
    }
+   .bluec2{
+   	margin-top: 20px;
+   }
+   .bluec1{
+   	margin-top: 20px;
+   }
    /*Promeni posle za sve telefone*/
 }
 /*Iphone 5 - iphone 6 kraj*/
@@ -85,7 +91,12 @@
    .dugme{
    	font-size:19px;
    }
-
+	.bluec2{
+   	margin-top: 20px;
+   }
+   .bluec1{
+   	margin-top: 20px;
+   }
 }
 /*Iphone 6 kraj*/
 /*Iphone 6+ pocetak*/
@@ -126,6 +137,12 @@
    }
    .dugme{
    	font-size:19px;
+   }
+   .bluec2{
+   	margin-top: 20px;
+   }
+   .bluec1{
+   	margin-top: 20px;
    }
 }
 /*Iphone 6+ kraj*/
@@ -181,6 +198,35 @@
    	padding-left: 30px;
    	padding-right: 30px;
    }
+   .slajder1 h3{
+   	padding: 304px 127px;
+   }
+   .slajder3 h3{
+    position: absolute;
+    right: 30%;
+    top: 67%;
+   }
+   .bluec1{
+   	margin-top: 0;
+   }
+
+.bluec2{
+   	margin-top: 0;
+   }
+}
+@media (max-width:1335px) and (min-width:1024px){
+	.below-slideshow .txt-block{
+		padding-top: 0;
+	}
+	.bluecAbout{
+		margin-top: 0;
+	}
+	.bluec2{
+		margin-top: 88px;
+	}
+	.bluec1{
+		margin-top: 50px;
+	}
 }
 /*Zajednicko za telefone*/
 @media (max-width:414px) and (min-width:320px){

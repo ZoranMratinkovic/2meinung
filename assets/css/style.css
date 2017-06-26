@@ -110,6 +110,9 @@ h1,h2,h4 {
 .button23{
 	background-color:#ccc;
 }
+.bluec{
+  color:#52cbdc;
+}
 #menu-top a {
   font-weight: bold;
 color: #000;
@@ -437,13 +440,19 @@ footer { background-color:#006d95; min-height:350px; font-family: 'Open Sans', s
 .footerleft { margin-top:50px; padding:0 36px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
-.footerleft p { color:#fff; font-size:15px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p { color:#fff; font-size:15px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px; text-align: center;}
 .footerleft p i { width:20px; color:##1b1b2d;}
 
 
-.paddingtop-bottom {  margin-top:50px;}
+.paddingtop-bottom {  margin-top:50px; text-align: center;}
 .footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
-.footer-ul li { line-height:29px; font-size:15px;}
+.footer-ul li {     border: 1px solid #FFF;
+    line-height: 29px;
+    font-size: 15px;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
 .footer-ul li a { color:#ffffff; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
 .footer-ul i { margin-right:10px;}
 .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
@@ -464,7 +473,7 @@ footer { background-color:#006d95; min-height:350px; font-family: 'Open Sans', s
 
  .copyright { min-height:40px; background-color:#000000;}
  .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
- .heading7 { font-size:21px; font-weight:700; color:rgb(171, 171, 171); margin-bottom:22px;}
+ .heading7 { font-size:21px; font-weight:700; color:rgb(171, 171, 171); margin-bottom:22px; text-align: center;}
  .post p { font-size:15px; color:#FFF; line-height:20px;}
  .post p span { display:block; color:#FFF;}
  .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
@@ -473,4 +482,7 @@ footer { background-color:#006d95; min-height:350px; font-family: 'Open Sans', s
  .bottom_ul li a { color:#FFF;  font-size:16px;}
  .fb{
    color:#010473;
+ }
+ .btnblue{
+   background: #428bca
  }

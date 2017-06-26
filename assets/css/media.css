@@ -147,11 +147,40 @@
 	}
 	.pading{
 		padding:0;
-		
+
 	}
-	.tx3 .front1, .txt1 .front1{
-		margin-left: 16px;
+	.txt1 .front1{
+		padding-left: 30px;
+		padding-right: 18px;
 	}
+	.txt3 .front1{
+		padding-left: 38px;
+		padding-right: 30px;
+	}
+	.txt5 .front1{
+		padding-left: 10px;
+		padding-right: 16px;
+	}
+	.txt4 .front1{
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+	  .flexible{
+    display:flex;
+    flex-direction: column;
+    padding:0;
+    margin: 0;
+   }
+   .a{
+    order:2;
+   }
+   .b{
+    order:1;
+   }
+   .just-txt-div{
+   	padding-left: 30px;
+   	padding-right: 30px;
+   }
 }
 /*Zajednicko za telefone*/
 @media (max-width:414px) and (min-width:320px){

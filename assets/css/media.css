@@ -41,13 +41,21 @@
    	padding:170px 3px;
    }
    .dugme{
-   	font-size:19px;
+   	font-size:16px;
    }
    .bluec2{
    	margin-top: 20px;
    }
    .bluec1{
    	margin-top: 20px;
+   }
+   .slajder3 h3{
+    position: absolute;
+
+    right: 280%;
+   }
+   .slajder1 h3{
+    padding: 180px 0px;
    }
    /*Promeni posle za sve telefone*/
 }
@@ -97,8 +105,17 @@
    .bluec1{
    	margin-top: 20px;
    }
+   .slajder3 h3{
+    position: absolute;
+
+    right: 260%;
+   }
+   .slajder1 h3{
+    padding: 180px 0px;
+   }
 }
-/*Iphone 6 kraj*/
+/*Iphone 6
+ kraj*/
 /*Iphone 6+ pocetak*/
 @media (max-width:767px) and (min-width:414px){
   .slidza{
@@ -131,9 +148,14 @@
    .carousel-inner{
    	height: 375px!important;
    }
-   .carousel-caption h3{
+   .slajder1 h3{
    	width: 0;
    	padding:170px 20px;
+   }
+   .slajder3 h3{
+    position: absolute;
+    right: -68%;
+    top: 50%;
    }
    .dugme{
    	font-size:19px;
@@ -199,11 +221,11 @@
    	padding-right: 30px;
    }
    .slajder1 h3{
-   	padding: 304px 127px;
+   	padding: 304px 96px;
    }
    .slajder3 h3{
     position: absolute;
-    right: 30%;
+    right: 20%;
     top: 67%;
    }
    .bluec1{
@@ -212,6 +234,9 @@
 
 .bluec2{
    	margin-top: 0;
+   }
+   .dugme{
+   	font-size:28px;
    }
 }
 @media (max-width:1335px) and (min-width:1024px){

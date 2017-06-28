@@ -214,7 +214,9 @@ border: 1px solid black;
    .slajder3{
      left:60%!important;
    }
-
+    .none{
+      display:none;
+    }
    .carousel-inner > .item > img{
     height:564px;
    }

@@ -238,6 +238,9 @@
    .dugme{
    	font-size:28px;
    }
+   #menu-top a{
+   	font-size:14px;
+   }
 }
 @media (max-width:1335px) and (min-width:1024px){
 	.below-slideshow .txt-block{

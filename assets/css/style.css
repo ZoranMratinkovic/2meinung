@@ -17,7 +17,8 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size:20px;
 }
-
+html{ overflow-x: hidden }
+body{ overflow-x: hidden }
 h1,h2,h4 {
     font-family: 'Open Sans', sans-serif;
 }

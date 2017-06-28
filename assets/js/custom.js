@@ -24,16 +24,16 @@
             new WOW().init();
 
         },
-        gallery_fun: function () {
+       /* gallery_fun: function () {
             /*====================================
     FOR IMAGE/GALLERY POPUP
     ======================================*/
-            $("a.preview").prettyPhoto({
+     /*       $("a.preview").prettyPhoto({
                 social_tools: false
-            });
+            });*/
             /*====================================
           FOR IMAGE/GALLERY FILTER
-          ======================================*/
+          ======================================
 
             // MixItUp plugin
             // http://mixitup.io
@@ -47,7 +47,7 @@
 
             });
         },
-       
+       */
         custom_fun:function()
         {
             
@@ -66,7 +66,7 @@
     $(document).ready(function () {
         mainApp.slide_fun();
         mainApp.wow_fun();
-        mainApp.gallery_fun();
+       // mainApp.gallery_fun();
         mainApp.custom_fun();
 
   });

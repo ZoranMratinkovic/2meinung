@@ -192,6 +192,16 @@ border: 1px solid black;
           padding:15px 25px;
           opacity: 0.68;
     }
+    .carousel-caption h1{
+       text-align:center;
+       font-size:22px;
+       font-weight:900;
+       text-transform:uppercase;
+       background-color: #01b3cc;
+       width:400px;
+         padding:15px 25px;
+         opacity: 0.68;
+   }
     .carousel-caption h3{
        text-align:center;
        font-size:22px;

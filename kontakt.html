@@ -121,7 +121,7 @@
 
 
 
-                                <form action="alpikommailer.php" method="post" id="contact_form">
+                                <form action="alpikommailer.php" method="post" id="contact_form" enctype="multipart/form-data">
                                  <div class="form-group">
                                             <label>Name:</label>
                                             <input class="form-control" type="text" name="Ime" />
@@ -136,20 +136,20 @@
                                     </div>
                                     <div class="form-group">
                                     <label>Offerte vom 1 Zahnarzt</label>
-                                    <input class="form-control" type="text" />
+                                    <input class="form-control" type="text" name="zahnarzt" />
                                 </div>
                                         <div class="form-group">
                                                     <label>Ihre Offerte</label>
-                                                    <input type="file" name="" value="" class="btn btn-primary btn-lg inputFile"><br/>
+                                                    <input type="file" name="slika" value="" class="btn btn-primary btn-lg inputFile"><br/>
                                                      <label>Ihre Röntgenbilder</label>
-                                                     <input type="file" name="" value="" class="btn btn-primary btn-lg inputFile">
+                                                     <input type="file" name="slika1" value="" class="btn btn-primary btn-lg inputFile">
                                                 </div>
                                 <div class="form-group">
                                             <label>Kommentar</label>
                                             <textarea class="form-control"  rows="5" name="Poruka"></textarea>
                                         </div>
 
-                                        <button type="submit" class="btn btn-success btn-lg btnblue" name="Po&scaron;aljite">SENDEN </button>
+                                        <button type="submit" class="btn btn-success btn-lg btnblue" name="send">SENDEN </button>
               </form>
                             </div>
             </div>

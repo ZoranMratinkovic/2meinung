@@ -36,12 +36,9 @@
    .carousel-inner{
    	height: 375px!important;
    }
-   .carousel-caption h3{
-   	width: 0;
-   	padding:170px 3px;
-   }
+   
    .dugme{
-   	font-size:16px;
+   	font-size:14px;
    }
    .bluec2{
    	margin-top: 20px;
@@ -50,12 +47,16 @@
    	margin-top: 20px;
    }
    .slajder3 h3{
-    position: absolute;
-
-    right: 280%;
+      position: absolute;
+    right: -95%;
+    /* left: -76%; */
+    top: 63%;
+    /* width: 0; */
    }
    .slajder1 h3{
-    padding: 180px 0px;
+    position: absolute;
+    left: -36%;
+    margin-top: 180px;
    }
    /*Promeni posle za sve telefone*/
 }
@@ -92,10 +93,7 @@
    .carousel-inner{
    	height: 375px!important;
    }
-   .carousel-caption h3{
-   	width: 0;
-   	padding:170px 20px;
-   }
+   
    .dugme{
    	font-size:19px;
    }
@@ -106,12 +104,13 @@
    	margin-top: 20px;
    }
    .slajder3 h3{
-    position: absolute;
-
-    right: 260%;
+    margin-left: -244px;
+    margin-top: 180px;
    }
    .slajder1 h3{
-    padding: 180px 0px;
+    margin-top:180px;
+    margin-left: -60px;
+
    }
 }
 /*Iphone 6
@@ -150,11 +149,11 @@
    }
    .slajder1 h3{
    	width: 0;
-   	padding:170px 20px;
+   	padding:170px 10px;
    }
    .slajder3 h3{
     position: absolute;
-    right: -68%;
+    right: -46%;
     top: 50%;
    }
    .dugme{
@@ -240,6 +239,9 @@
    }
    #menu-top a{
    	font-size:14px;
+   }
+   .display{
+   	display:none;
    }
 }
 @media (max-width:1335px) and (min-width:1024px){

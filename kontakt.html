@@ -100,8 +100,7 @@
 
 									<p ><strong> Adresse: </strong>
 										Spitalgasse 4, 3011 Bern
-<br />
-
+                  <br />
 									</p>
                    <p>
                      <strong> Tel: </strong> (031) 301 57 57
@@ -121,22 +120,34 @@
 
 
 
-                                <form action="alpikommailer.php" method="post" id="contact_form" enctype="multipart/form-data">
+                                <form acion="alpikommailer.php" method="post" id="contact_form" enctype="multipart/form-data" onSubmit=" return Check();">
                                  <div class="form-group">
                                             <label>Name:</label>
-                                            <input class="form-control" type="text" name="Ime" />
-                                        </div>
+                                            <input class="form-control" type="text" name="Ime" id="ime"/>
+                                            <div class="alert alert-danger err">
+                                              <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                            </div>
+                                  </div>
                                             <div class="form-group">
                                             <label>Email: </label>
-                                            <input class="form-control" name="EMail" type="text" />
+                                            <input class="form-control" name="EMail" type="Email" id="Email"/>
+                                            <div class="alert alert-danger err">
+                                              <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                            </div>
                                         </div>
                                         <div class="form-group">
                                         <label>Telefon: </label>
-                                        <input class="form-control" type="text" name="Telefon" />
+                                        <input class="form-control" type="text" name="Telefon" id="Tel"/>
+                                        <div class="alert alert-danger err">
+                                              <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                        </div>
                                     </div>
                                     <div class="form-group">
                                     <label>Offerte vom 1 Zahnarzt</label>
-                                    <input class="form-control" type="text" name="zahnarzt" />
+                                    <input class="form-control" type="text" name="zahnarzt" id="Zahn"/>
+                                    <div class="alert alert-danger err">
+                                              <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                    </div>
                                 </div>
                                         <div class="form-group">
                                                     <label>Ihre Offerte</label>
@@ -146,7 +157,10 @@
                                                 </div>
                                 <div class="form-group">
                                             <label>Kommentar</label>
-                                            <textarea class="form-control"  rows="5" name="Poruka"></textarea>
+                                            <textarea class="form-control" rows="5" name="Poruka" id="Por"></textarea>
+                                            <div class="alert alert-danger err">
+                                              <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                            </div>
                                         </div>
 
                                         <button type="submit" class="btn btn-success btn-lg btnblue" name="send">SENDEN </button>
@@ -244,6 +258,7 @@
      <!--FLEXSLIDER SCRIPTS PLUGIN-->
     <script src="assets/js/jquery.flexslider.js"></script>
      <!--CUSTOM SCRIPTS -->
+     <script src="assets/js/script.js"></script>
     <script src="assets/js/custom.js"></script>
 
 </body>

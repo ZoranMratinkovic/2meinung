@@ -212,6 +212,9 @@ border: 1px solid black;
        padding:15px 25px;
 
    }
+   .err{
+    display:none;
+   }
    .dugme{
      font-size:23px;
      font-weight: bold;
